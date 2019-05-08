@@ -8,5 +8,6 @@ import {hasLifecycleHook} from "@angular/compiler/src/lifecycle_reflector";
 })
 export class AppComponent {
   title = 'statsbox';
+
 }
 
