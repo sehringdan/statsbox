@@ -11,6 +11,8 @@ export class StatsboxMainpageBodyComponent implements OnInit {
   }
 
   ngOnInit() {
+
+
   }
 
 }

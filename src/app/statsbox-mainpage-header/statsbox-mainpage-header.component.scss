@@ -1,0 +1,31 @@
+.statsboxHeader {
+  background-color: #003580;
+  padding: 8px 0 16px;
+}
+
+.logo {
+  left: 185px;
+  width: 150px;
+  vertical-align: middle;
+}
+
+.navbar {
+  padding-top: 12px;
+  padding-left: 0;
+  color: #fff;
+}
+
+.nav-item {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.active {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-bottom-color: #07c;
+  cursor: default;
+}
+
+.nav-link {
+  color: #ffffff;
+}
