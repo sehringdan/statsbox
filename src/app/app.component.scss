@@ -1,16 +1,25 @@
 /* Application-wide Styles */
-body {
-  margin: 2em;
-}
 
 /* everywhere else */
 * {
   font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
 
-div {
-  display: block;
-  font-size: 180px;
+.bg {
+  width: 100%;
+
+
+  /* The image used */
+  background-image: url("../assets/images/background_skyline.jpg");
+
+  /* Full height */
+  height: 500%;
+
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+
+
 }
-
-

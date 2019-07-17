@@ -11,6 +11,10 @@ export class StatsboxMainpageHeaderComponent implements OnInit {
   }
 
   ngOnInit() {
+
+    //$("#button").click(function() {
+    //  $('.transform').toggleClass('transform-active');
+    //});
   }
 
 }
