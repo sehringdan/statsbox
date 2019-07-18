@@ -1,16 +1,15 @@
-import {async, ComponentFixture, TestBed} from '@angular/core/testing';
+import {async, ComponentFixture, TestBed} from "@angular/core/testing";
 
-import {StatsboxMainpageFooterComponent} from './statsbox-mainpage-footer.component';
+import {StatsboxMainpageFooterComponent} from "./statsbox-mainpage-footer.component";
 
-describe('StatsboxMainpageFooterComponent', () => {
+describe("StatsboxMainpageFooterComponent", () => {
   let component: StatsboxMainpageFooterComponent;
   let fixture: ComponentFixture<StatsboxMainpageFooterComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [StatsboxMainpageFooterComponent]
-    })
-      .compileComponents();
+    }).compileComponents();
   }));
 
   beforeEach(() => {
@@ -19,7 +18,7 @@ describe('StatsboxMainpageFooterComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });

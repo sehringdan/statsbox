@@ -1,16 +1,15 @@
-import {async, ComponentFixture, TestBed} from '@angular/core/testing';
+import {async, ComponentFixture, TestBed} from "@angular/core/testing";
 
-import {StatsboxMainpageHeaderComponent} from './statsbox-mainpage-header.component';
+import {StatsboxMainpageHeaderComponent} from "./statsbox-mainpage-header.component";
 
-describe('StatsboxMainpageHeaderComponent', () => {
+describe("StatsboxMainpageHeaderComponent", () => {
   let component: StatsboxMainpageHeaderComponent;
   let fixture: ComponentFixture<StatsboxMainpageHeaderComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [StatsboxMainpageHeaderComponent]
-    })
-      .compileComponents();
+    }).compileComponents();
   }));
 
   beforeEach(() => {
@@ -19,7 +18,7 @@ describe('StatsboxMainpageHeaderComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });
